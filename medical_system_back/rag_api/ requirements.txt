@@ -1,0 +1,7 @@
+fastapi==0.112.2
+uvicorn[standard]
+pymysql
+sentence-transformers
+pymilvus
+fitz-PyMuPDF
+requests
