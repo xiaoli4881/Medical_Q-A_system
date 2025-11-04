@@ -2,9 +2,9 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 class ProcessConfig(BaseModel):
-    db_path: str = "/keeson/code/lwd/upload/medical_system/rag_api/A.db"
+    db_path: str = "medical_system_back/rag_api/A.db"
     collection_name: str = "medical_papers"
-    model_path: str = "/home/ldf/bigmodel/ChatGLM3/rag/paraphrase-multilingual-MiniLM-L12-v2"
+    model_path: str = "paraphrase-multilingual-MiniLM-L12-v2"
 
 class ChatRequest(BaseModel):
     prompt: str
