@@ -3,6 +3,20 @@
 本项目是一个基于 **RAG（Retrieval-Augmented Generation）** 的医疗智能问答系统，包含前后端两部分。  
 系统可通过自然语言查询医学相关问题，并基于知识库提供精准回答。
 
+
+🖼️ 系统界面展示
+
+下图展示了项目的前端页面效果：
+
+交互界面示例 1：
+
+    <img width="999" height="898" alt="image" src="https://github.com/xiaoli4881/Medical_Q-A_system/assets/1.png" />
+
+交互界面示例 2：
+    <img width="999" height="898" alt="image" src="https://github.com/xiaoli4881/Medical_Q-A_system/assets/2.png" />
+
+
+
 ---
 
 ## 📂 项目结构
@@ -113,10 +127,16 @@ const BASE_URL = "http://127.0.0.1:8000";
 
 ## 📘 项目亮点
 
-- ✅ 支持医学文档上传与问答  
-- ✅ 支持上下文连续对话  
-- ✅ 采用 RAG 技术融合检索与生成，提高回答准确率  
-- ✅ 前后端分离结构，易扩展与部署  
+✅ 支持多轮对话记忆：系统自动保存上下文，实现连续问答与上下文理解。
+✅ RAG 检索增强生成：结合语义检索与大语言模型生成，实现更准确、更专业的医学回答。
+✅ 本地知识库嵌入检索：支持医学资料（PDF/Word）导入，自动向量化后可用于知识问答。
+✅ 快速数据库存取：基于 SQLite3，轻量稳定，适合嵌入式和小规模医疗项目。
+✅ API 设计清晰：后端采用 FastAPI，接口层次分明，文档自动生成（Swagger / ReDoc）。
+✅ 前后端完全分离：前端 Vue 3 + TypeScript，可独立部署与扩展。
+✅ 模块化架构设计：服务层（services）独立封装核心逻辑，便于维护和复用。
+✅ PDF 智能解析：系统支持 PDF 上传后自动提取文本内容并生成向量索引。
+✅ 可视化界面友好：现代化 UI，支持实时问答展示、文件上传、历史会话回放。
+✅ 易于部署与迁移：无外部依赖数据库，适合快速落地与二次开发。
 
 ---
 
@@ -130,3 +150,5 @@ const BASE_URL = "http://127.0.0.1:8000";
 
 **Medical Q&A System Team**  
 weidongli@hubu.stu.edu.cn
+指导方向：医学知识问答系统、AI 交互设计、RAG 检索增强
+特别感谢：开源社区的 FastAPI、Vue、Milvus 贡献者
