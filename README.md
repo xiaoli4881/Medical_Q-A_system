@@ -10,10 +10,10 @@
 
 交互界面示例 1：
 
-    <img width="999" height="898" alt="image" src="https://github.com/xiaoli4881/Medical_Q-A_system/assets/1.png" />
+    <img width="999" height="898" alt="image" ./assets/1.png" />
 
 交互界面示例 2：
-    <img width="999" height="898" alt="image" src="https://github.com/xiaoli4881/Medical_Q-A_system/assets/2.png" />
+    <img width="999" height="898" alt="image" src="./assets/2.png" />
 
 
 
