@@ -10,11 +10,11 @@
 
 交互界面示例 1：
 
-<img width="999" height="898" alt="交互界面示例1" src="./asserts/1.png" />
+<img width="999" height="898" alt="交互界面示例1" src="./assets/1.png" />
 
 交互界面示例 2：
 
-<img width="999" height="898" alt="交互界面示例2" src="./asserts/2.png" />
+<img width="999" height="898" alt="交互界面示例2" src="./assets/2.png" />
 
 
 
